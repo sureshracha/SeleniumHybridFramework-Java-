@@ -1,0 +1,150 @@
+/* 
+    Document   : layout
+    Created on : Mar 21, 2012, 11:52:44 AM
+    Author     : VS102359
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+
+body,html{
+    height: 100%;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    width: 100%;
+    background-color: #EEEEEE;
+    background-image: url("../images/bg2.png");
+    background-repeat: repeat;
+    text-align: center;
+}
+
+a:link{
+    color: #0069C3;
+    text-decoration: none;
+    outline: none;
+}
+
+img{
+    border: none; 
+    outline:none 
+}
+
+a:visited{
+    color: #0069C3;
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover{
+    text-decoration:underline;
+    outline: none;
+}
+
+#container{
+    width: 80%;
+    margin: 0 auto; /*To put the container in center auto is used*/
+    position: relative; /*To adjust the footer in bottom*/
+    height: auto !important;
+    min-height: 100%;
+    height: 100%;
+
+
+}
+
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: 	#F4F4F4;
+	background-color:#4682B4;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #B0B0B0;
+    border-top-style: none;
+
+    /* Shadow for boxes */
+    -moz-box-shadow: 0 0 2px #CCCCCC;
+    -ms-box-shadow: 0 0 2px #CCCCCC;
+    -webkit-box-shadow: 0 0 2px #CCCCCC;
+    box-shadow: 0 0 2px #CCCCCC;
+
+
+    zoom: 1;
+    filter:
+        progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=3, Direction=90),
+        progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=3, Direction=270);
+}
+
+
+
+#content{
+    width: 100%;
+    margin: 0;
+    padding-bottom: 70px;  /*The Bottom padding*/
+
+    /*border-style: solid;*/
+    border-width: 1px;
+    border-color: #cccc00;
+    border-top-style: none;
+}
+
+
+#footer{   
+    /*push the container to bottom with absolute position and maintain a distance 
+    of 0 from bottom*/
+    position: absolute; 
+
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    width: 100%;
+    height: 70px;
+    background-color:white;
+
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: #B0B0B0;
+    border-bottom-style: none;
+
+
+    /*effects*/
+    /*Round Corners*/
+
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+
+    -moz-border-top-left-radius:2px; /* Firefox 3.6 and earlier */
+    -moz-border-top-right-radius:2px; /* Firefox 3.6 and earlier */
+
+    -ms-border-top-left-radius:2px; /* IE */
+    -ms-border-top-right-radius:2px; /* IE */
+
+    -webkit-border-top-left-radius:2px; /* Chrome or Safari */
+    -webkit-border-top-right-radius:2px; /* Chrome or Safari */
+
+    -o-border-top-left-radius:2px; /* Opera */
+    -o-border-top-right-radius:2px; /* Opera */
+
+
+    /* Shadow for boxes */
+    -moz-box-shadow: 0 0 2px #CCCCCC;
+    -ms-box-shadow: 0 0 2px #CCCCCC;
+    -webkit-box-shadow: 0 0 2px #CCCCCC;
+    box-shadow: 0 0 2px #CCCCCC;
+
+
+    zoom: 1;
+    filter: progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=3, Direction=0),
+        progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=3, Direction=90),
+        progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=3, Direction=270);
+
+
+}

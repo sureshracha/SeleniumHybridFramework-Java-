@@ -1,0 +1,90 @@
+/* 
+    Document   : content
+    Created on : Mar 22, 2012, 10:33:35 AM
+    Author     : VS102359
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+
+root { 
+    display: block;
+}
+
+
+#header a#logo {
+    float: left;
+    text-decoration: none;
+
+}
+
+#header p{
+    float: right;
+    font-size: 13px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+
+
+
+
+#mainContent{
+
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-height: 600px;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #B0B0B0;
+
+    /*effects*/
+    /*Round Corners*/
+    border-radius: 2px;
+
+    -moz-border-radius:2px; /* Firefox 3.6 and earlier */
+    -moz-border-radius:2px; /* Firefox 3.6 and earlier */
+
+    -ms-border-radius:2px; /* IE */
+    -ms-border-radius:2px; /* IE */
+
+    -webkit-border-radius:2px; /* Chrome or safari */
+    -webkit-border-radius:2px; /* Chrome or safari */
+
+    -o-border-radius:2px; /* Opera */
+    -o-border-radius:2px; /* Opera */
+
+
+    /* Shadow for boxes */
+    -moz-box-shadow: 0 0 2px #CCCCCC;
+    -ms-box-shadow: 0 0 2px #CCCCCC;
+    -webkit-box-shadow: 0 0 2px #CCCCCC;
+    box-shadow: 0 0 2px #CCCCCC;
+
+    zoom: 1;
+    filter: progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=3, Direction=0),
+        progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=3, Direction=90),
+        progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=3, Direction=180),
+        progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=3, Direction=270);
+}
+
+
+#content img {
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+
+#footer p {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:Black;
+}
+
+#footer a{
+    color: #0069C3;
+}

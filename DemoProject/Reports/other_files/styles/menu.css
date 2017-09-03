@@ -1,0 +1,144 @@
+/* 
+    Document   : menu
+    Created on : Mar 22, 2012, 3:24:36 PM
+    Author     : VS102359
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+
+#menuholder{
+
+    background-color: white;
+
+    height: 70px;
+    width: 100%;
+    font-weight:800;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: #B0B0B0;
+    border-top-color:white;
+
+    /*effects*/
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+
+    -moz-border-bottom-left-radius:2px; /* Firefox 3.6 and earlier */
+    -moz-border-bottom-right-radius:2px; /* Firefox 3.6 and earlier */
+
+    -ms-border-top-left-radius:2px; /* IE */
+    -ms-border-top-right-radius:2px; /* IE */
+
+    -webkit-border-top-left-radius:2px; /* Chrome or Safari */
+    -webkit-border-top-right-radius:2px; /* Chrome or Safari */
+
+    -o-border-top-left-radius:2px; /* Opera */
+    -o-border-top-right-radius:2px; /* Opera */
+    
+    
+   zoom: 1;
+                filter: 
+                    progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=2, Direction=90),
+                    progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=3, Direction=180),
+                    progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=2, Direction=270);
+
+
+}
+
+#menuholder li{
+    float: left;
+    list-style-type: none;    
+}
+
+
+
+
+#menuholder li#last{
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: #B0B0B0;
+
+}
+
+#menuholder a:link{
+    padding: 7px;
+    display: block;
+
+    color: #0069C3;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #B0B0B0;
+    border-right-style: none;
+
+    box-shadow: 0px 3px 3px #CCCCCC ;
+    -webkit-box-shadow: 0px 2px 2px #CCCCCC ;
+    -moz-box-shadow: 0px 3px 3px #CCCCCC ;
+    -o-box-shadow:0px 2px 2px #CCCCCC ;
+
+}
+
+#menuholder a:visited{
+
+    padding: 7px;
+    display: block;
+
+
+    text-decoration: none;
+
+    color: #0069C3;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #B0B0B0;
+    border-right-style: none;
+
+
+
+    box-shadow: 0px 2px 2px #CCCCCC ;
+    -webkit-box-shadow: 0px 2px 2px #CCCCCC ;
+    -moz-box-shadow: 0px 2px 2px #CCCCCC ;
+    -o-box-shadow:0px 2px 2px #CCCCCC ;
+
+}
+
+#menuholder a:hover{
+
+    padding: 7px;
+    display: block;
+
+
+
+    /*background-color: 	#B8DD00;*/
+    text-decoration: none;
+   color: #DC143C; 
+
+    -webkit-box-shadow:0px 1px 1px #CCCCCC;
+    -moz-box-shadow:0px 1px 1px #CCCCCC;
+    box-shadow: 0px 1px 1px #CCCCCC ;
+    -o-box-shadow: 0px 1px 1px #CCCCCC ;
+
+}
+
+#menuholder li#last{
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: #B0B0B0;
+}
+
+#menuholder a:active{
+
+    padding: 7px;
+    display: block;
+
+
+
+    box-shadow:none;
+    -webkit-box-shadow:none;
+    -moz-box-shadow:none;
+    -o-box-shadow:none;
+
+}

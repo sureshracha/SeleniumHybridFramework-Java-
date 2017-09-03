@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="regression Suite" duration-ms="71192" started-at="2017-06-23T13:36:12Z" finished-at="2017-06-23T13:37:23Z">
+    <groups>
+    </groups>
+    <test name="TestReport" duration-ms="38880" started-at="2017-06-23T13:36:12Z" finished-at="2017-06-23T13:36:51Z">
+      <class name="com.test.testsuite.testcase1">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:com.test.testsuite.testcase1@754ba872]" name="beforeTest" is-config="true" duration-ms="109" started-at="2017-06-23T19:06:12Z" finished-at="2017-06-23T19:06:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6f1c29b7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.testsuite.testcase1@754ba872]" name="beforeMethod" is-config="true" duration-ms="15" started-at="2017-06-23T19:06:12Z" finished-at="2017-06-23T19:06:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.testsuite.testcase1.test1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.testsuite.testcase1@754ba872]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-06-23T19:06:12Z" finished-at="2017-06-23T19:06:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.test.testsuite.testcase1@754ba872]" name="init" is-config="true" duration-ms="30688" started-at="2017-06-23T19:06:12Z" finished-at="2017-06-23T19:06:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="FAIL" signature="test1()[pri:0, instance:com.test.testsuite.testcase1@754ba872]" name="test1" duration-ms="2575" started-at="2017-06-23T19:06:42Z" finished-at="2017-06-23T19:06:45Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.core.framework.reports.Logger.FailTheTestWithScreenCapture(Logger.java:79)
+	at com.test.testsuite.testcase1.test1(testcase1.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.test.testsuite.testcase1@754ba872]" name="TearDown" is-config="true" duration-ms="2324" started-at="2017-06-23T19:06:45Z" finished-at="2017-06-23T19:06:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.test.testsuite.testcase1@754ba872]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-06-23T19:06:47Z" finished-at="2017-06-23T19:06:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.testsuite.testcase1.test1()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=test1 status=FAILURE method=testcase1.test1()[pri:0, instance:com.test.testsuite.testcase1@754ba872] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.test.testsuite.testcase1@754ba872]" name="afterTest" is-config="true" duration-ms="3153" started-at="2017-06-23T19:06:47Z" finished-at="2017-06-23T19:06:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.test.testsuite.testcase1 -->
+    </test> <!-- TestReport -->
+    <test name="DemoReport" duration-ms="32250" started-at="2017-06-23T13:36:51Z" finished-at="2017-06-23T13:37:23Z">
+      <class name="com.test.testsuite.Demo">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.test.testsuite.Demo@e45f292]" name="init" is-config="true" duration-ms="25805" started-at="2017-06-23T19:06:51Z" finished-at="2017-06-23T19:07:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="DemoTesting()[pri:0, instance:com.test.testsuite.Demo@e45f292]" name="DemoTesting" duration-ms="2857" started-at="2017-06-23T19:07:16Z" finished-at="2017-06-23T19:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoTesting -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.test.testsuite.Demo@e45f292]" name="TearDown" is-config="true" duration-ms="3588" started-at="2017-06-23T19:07:19Z" finished-at="2017-06-23T19:07:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.test.testsuite.Demo -->
+    </test> <!-- DemoReport -->
+  </suite> <!-- regression Suite -->
+</testng-results>

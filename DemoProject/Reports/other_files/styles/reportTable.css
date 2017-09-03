@@ -1,0 +1,89 @@
+/* 
+    Document   : completeReports
+    Created on : Oct 5, 2012, 5:07:39 PM
+    Author     : VS102359
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+
+
+
+.pass{
+
+}
+.fail{
+
+}
+
+#resultTable{
+    background-color: white;
+
+    font-size: 15px;
+
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    border-width: 5px;      
+    width: 90%;
+
+    /* Shadow for boxes */
+    -moz-box-shadow: 0 0 10px #CCCCCC;
+    -ms-box-shadow: 0 0 10px #CCCCCC;
+    -webkit-box-shadow: 0 0 10px #CCCCCC;
+    box-shadow: 0 0 10px #CCCCCC;
+
+       zoom: 1;
+                filter:  progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=2, Direction=0),
+                     progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=2, Direction=90),
+                    progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=2, Direction=180),
+                    progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=2, Direction=270);
+}
+#resultTable img{
+    height: 25px;
+    width: 25px;
+
+}
+#resultTable table
+{
+    border-collapse:collapse;
+    width: 100%;
+}
+
+th{
+    font-size: 15px;
+    font-weight: 600;
+    color: #009999;
+    height: 40px;
+}
+table,th, td
+{
+    border: 1px solid #999966;
+    padding: 6px 6px;                
+}
+
+
+thead{
+background-color: #4C8FBF ;
+
+}
+
+thead th{ color:white
+}
+
+#resultTable tr:hover{
+background-color:white;
+color:Black;
+}
+
+
+ #resultTable thead tr:hover{
+color:white;
+background-color: #4C8FBF ;
+}
+
+

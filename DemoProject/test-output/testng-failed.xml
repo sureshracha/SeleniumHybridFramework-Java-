@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [regression Suite]">
+  <test name="TestReport">
+    <classes>
+      <class name="com.test.testsuite.testcase1"/>
+    </classes>
+  </test> <!-- TestReport -->
+  <test name="DemoReport">
+    <classes>
+      <class name="com.test.testsuite.Demo"/>
+    </classes>
+  </test> <!-- DemoReport -->
+  <test name="TestReport(failed)">
+    <classes>
+      <class name="com.test.testsuite.Demo">
+        <methods>
+          <include name="init"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.test.testsuite.Demo -->
+      <class name="com.test.testsuite.testcase1">
+        <methods>
+          <include name="init"/>
+          <include name="TearDown"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="test1"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.test.testsuite.testcase1 -->
+    </classes>
+  </test> <!-- TestReport(failed) -->
+</suite> <!-- Failed suite [regression Suite] -->

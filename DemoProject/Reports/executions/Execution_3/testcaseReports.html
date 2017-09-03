@@ -1,0 +1,135 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html >
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link type="text/css" rel="stylesheet"  href="../../other_files/styles/content.css"  />
+        <link type="text/css" rel="stylesheet"   href="../../other_files/styles/layout.css"  />
+        <link type="text/css" rel="stylesheet"  href="../../other_files/styles/menu.css"  />
+        <link type="text/css" rel="stylesheet"  href="../../other_files/styles/ie.css"  />
+  <link rel="stylesheet" type="text/css" href="../../other_files/styles/jqplot.css" />
+<!--[if lte IE 9]><script language="javascript" type="text/javascript" src="../../other_files/js/excanvas.js"></script><![endif]-->
+<script type="text/javascript" src="../../other_files/js/jquery.min.js"></script>
+<script type="text/javascript" src="../../other_files/js/jquery.jqplot.min.js"></script>
+<script type="text/javascript" src="../../other_files/js/jqplot.pieRenderer.min.js"></script>        <script src="testCaseReport.js" type="text/javascript" ></script>
+        
+        
+        <link type="text/css" rel="stylesheet"  href="../../other_files/styles/reportTable.css"  />
+        <style type="text/css">
+            #resultTable{
+                background-color: white;
+                font-size: 15px;
+                font-family: sans-serif;
+
+                margin-left: 35px;
+                margin-top: 105px;
+                border-width: 5px;      
+                width: 48%;
+                /* Shadow for boxes */
+                -moz-box-shadow: 0 0 10px #CCCCCC;
+                -ms-box-shadow: 0 0 10px #CCCCCC;
+                -webkit-box-shadow: 0 0 10px #CCCCCC;
+                box-shadow: 0 0 10px #CCCCCC;
+
+
+            }
+
+            #resultTable table 
+            {              
+
+                border-collapse:collapse;
+                width:100%;
+                height: 100%;
+                margin-bottom: 50px;
+            }
+h3{color:#999 ;text-align: left;margin-left: 40px; margin-top: 30px;}#envTable{border-collapse:collapse;text-align:left;background-color: white;-moz-box-shadow: 0 0 10px #CCCCCC;                -ms-box-shadow: 0 0 10px #CCCCCC;                -webkit-box-shadow: 0 0 10px #CCCCCC;               box-shadow: 0 0 10px #CCCCCC;				font-size: 14px;position: fixed !important;top: 630px;right: 11%;width: 450px;			 margin: 0 auto;   zoom: 1;filter:  progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=2, Direction=0),    progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=2, Direction=90),    progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=2, Direction=180),   progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=2, Direction=270);}#envTable td { border:0; padding-left:10px;} #resultTable tr:hover a { color:#DC143C;}#resultTable tr:hover{font-weight:600; color:#DC143C; }        </style>
+
+<!--[if !IE]> --> <style type="text/css">            #holder {
+                -moz-border-radius: 2px;
+                -moz-box-shadow: 0 1px 3px #666;
+
+                -webkit-border-radius: 2px;
+                -webkit-box-shadow: 0 1px 3px #666;
+
+
+                /* Shadow for boxes */
+                -moz-box-shadow: 0 0 8px #CCCCCC;
+                -ms-box-shadow: 0 0 8px #CCCCCC;
+                -webkit-box-shadow: 0 0 8px #CCCCCC;
+                box-shadow: 0 0 8px #CCCCCC;
+
+
+                zoom: 1;
+                filter: progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=2, Direction=0),
+                    progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=2, Direction=90),
+                    progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=2, Direction=180),
+                    progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=2, Direction=270);
+
+                background-color: white;
+
+                margin-bottom: 50px;
+                position: fixed !important;
+                
+                top: 198px;
+                right: 12%;
+
+                width: 450px;
+                height: 300px;
+                margin-top: 100px;
+            }
+ </style><!-- <![endif]-->
+
+ <!--[if IE ]><style type="text/css"> #holder {              background-color: white;             margin-bottom: 30px;              width: 450px;            height: 300px;     }</style><![endif]-->
+    </head>
+    <body>
+
+        <div id="container">
+
+
+            <div id="header">
+                <a id="logo" href="../../index.html">
+                    <!--img src="../../other_files/images/header.png" /-->
+<h1 style="color:white;font-size:50px;margin-left:40px;margin-bottom:10px">Automation Reports</h1>                </a>             
+
+            </div>
+
+            <div id="content">
+                <div  id="menuholder">
+                    <ul>
+                        <li id="first"><a href="../../index.html" >Home</a></li>
+                        <li id="last"><a href="../completeReports.html" >Complete Execution Reports</a></li>
+                    </ul>
+                </div>
+                <div id="mainContent">
+
+
+                    <div id="resultTable">
+                        <table border="1">
+                            <thead>
+                                <tr>
+                                    <th>S.No</th>
+                                    <th>Test Case Name</th>
+                                    <th>Result</th>
+                                    <th>Execution Time</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+<tr><td>1</td><td>[com.test.testsuite.testcase1]testt_Iteration1</td><td><img alt="SKIP" src="../../other_files/images/skip.png"/></td><td>0 milli sec</td></tr><tr><td>2</td><td>[com.test.testsuite.testcase1]testt_Iteration1</td><td><img alt="SKIP" src="../../other_files/images/skip.png"/></td><td>0 milli sec</td></tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                    <div id="holder"></div>
+
+
+<p id="env"><table id="envTable"><caption style="padding-bottom:1px; font-size:15px" ><h3>Configuration Method Failures</h3></caption><tr><td>Configuration Type</td><td>Method Name</td></tr><tr><td>Before Test</td><td>init</td></tr></table></p                </div>
+            </div>
+
+                  </div>
+    </body>
+</html>

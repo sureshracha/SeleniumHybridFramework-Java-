@@ -1,0 +1,19 @@
+ 
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="regression Suite" parallel="false">
+	  <test name="TestReport">
+		    <classes>			       
+		          <class name="com.test.testsuite.testcase1"/>		          
+		    </classes>
+	  </test> 
+	     
+	      <test name="DemoReport">
+		    <classes>			       
+		          <class name="com.test.testsuite.Demo"/>
+		    </classes>
+	  </test> 
+	  
+</suite> 
+
+ 
+ 
